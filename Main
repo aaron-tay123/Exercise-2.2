@@ -1,0 +1,46 @@
+package Exercise2c;
+
+public class Main {
+ public static void main(String[] args) {
+    	 
+    	 Tablet samsung = new Tablet(); //create new object from class Tablet name as samsung
+    	 Tablet huawei  = new Tablet(); //create second object from class Tablet name as huawei
+    	 Tablet apple   = new Tablet();//create third object from class Tablet name as apple
+    	 Tablet lenovo  = new Tablet();//create forth object from class Tablet name as lenovo
+    	 
+    	 System.out.println("SAMSUNG SPECIFICATION");
+    	 samsung.printSpec("Galaxy Tab S7+","GOLD",3099,60.5,'N', 8000, 128);
+    	 samsung.calcPrice(3099, 5, "Galaxy Tab S7+");
+    	 System.out.println();
+ 		   samsung.watchYoutube("Galaxy Tab S7+");
+ 		   samsung.takePicture("Galaxy Tab S7+");
+ 		   samsung.receiveNotification("Galaxy Tab S7+");
+    	 System.out.println("__________________________________________________");
+    	 
+    	 
+    	 System.out.println("HUAWEI SPECIFICATION");
+    	 huawei.printSpec("Huawei Tab 5","WHITE",355,55.5,'Y', 4500, 64);
+    	 huawei.calcPrice(355,5,"Huawei Tab 5");
+    	 System.out.println();
+ 		   huawei.watchYoutube("Huawei Tab 5");
+ 		   huawei.takePicture("Huawei Tab 5");
+ 		   huawei.receiveNotification("Huawei Tab 5");
+    	 System.out.println("__________________________________________________");
+    	 
+    	 
+    	 System.out.println("APPLE SPECIFICATION");
+    	 apple.printSpec("iPad Mini 1","BLACK",1199,55.5,'Y',5000, 32);
+    	 System.out.println();
+ 		   apple.watchYoutube("iPad Mini 1");
+ 		   apple.takePicture("iPad Mini 1");
+ 		   apple.receiveNotification("iPad Mini 1");
+    	 System.out.println("__________________________________________________");
+    	 
+    	 System.out.println("LENOVO SPECIFICATION");
+    	 lenovo.printSpec("Lenovo Tab 10 PRO","SILVER",599,59.5,'N', 4500, 32);
+    	 System.out.println();
+ 		   lenovo.watchYoutube("Lenovo Tab 10 PRO");
+ 		   lenovo.takePicture("Lenovo Tab 10 PRO");
+ 		   lenovo.receiveNotification("Lenovo Tab 10 PRO");
+  } 	 
+}

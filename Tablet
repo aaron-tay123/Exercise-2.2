@@ -1,0 +1,39 @@
+package Exercise2c;
+
+public class Tablet {
+	  String brand;
+    int price;
+    String color;
+    double weight;
+    char fingerprint;
+    int battery;
+    int storage;
+    
+    void printSpec(String b,String c,int p,double w, char f, int B, int s) {
+  	  System.out.println("Brand:  "+ b);
+  	  System.out.println("Price:  "+"RM"+ p);
+  	  System.out.println("Color:  "+ c);
+  	  System.out.println("Weight: "+ w +"gm");
+  	  System.out.println("Figerprint: "+ f);
+  	  System.out.println("Battery: "+ B + "mAh");
+  	  System.out.println("Storage: "+ s + "GB");
+  	  
+    }
+    void calcPrice(int p, int q, String b) {
+         int totalPrice = p*q;
+         System.out.println("Total price = "+ "RM"+ p +"*"+ q + "units");
+         System.out.println("Total price = "+"RM"+ totalPrice );
+    }
+    
+    void watchYoutube(String b) {
+		System.out.println(b + " can let the user watch the movie.");
+	  }
+	
+  	void takePicture(String b) {
+		System.out.println(b + " can take the beautiful photo.");
+	  }
+	
+	  void receiveNotification(String b) {
+		System.out.println(b + " have the function of receiving the messages.");
+	  }
+}
